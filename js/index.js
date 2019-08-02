@@ -2,6 +2,7 @@ function getRepositories(){
   let xml = new XMLHttpRequest();
   let username = $('input#username').value
     debugger;
+  xml.addEventListener('load', displayRepositories);
   xml.open("GET", `users/${username}/repos`, true);
   xml.send();
 
