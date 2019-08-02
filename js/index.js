@@ -1,5 +1,5 @@
 function getRepositories(){
-  
+  debugger
 }
 
 function displayRepositories(){
