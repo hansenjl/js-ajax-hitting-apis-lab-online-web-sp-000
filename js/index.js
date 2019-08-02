@@ -2,6 +2,10 @@ function getRepositories(){
   
 }
 
+function displayRepositories(){
+  
+}
+
 
 function getCommits(el){
   
