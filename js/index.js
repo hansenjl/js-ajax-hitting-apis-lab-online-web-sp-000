@@ -10,7 +10,7 @@ function getRepositories(){
 }
 
 function displayRepositories(){
-  debugger
+  debugger;
   $('#repositories').html = ""
 }
 
