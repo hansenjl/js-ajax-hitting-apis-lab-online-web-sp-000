@@ -1,5 +1,6 @@
 function getRepositories(){
   let xml = new XMLHttpRequest();
+  let username = $('input#username').value
     debugger;
   xml.open("GET", `users/${"word"}/repos`, true);
   xml.send();
