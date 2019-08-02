@@ -1,7 +1,7 @@
 function getRepositories(){
   const xml = new XMLHttpRequest();
   debugger;
-  var username = $('input#username').value
+  const username = $('input#username').value
     
   xml.addEventListener('load', displayRepositories);
   xml.open("GET", `https://api.github.com/users/${username}/repos`);
