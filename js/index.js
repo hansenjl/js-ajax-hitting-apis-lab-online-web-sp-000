@@ -3,7 +3,7 @@ function getRepositories(){
 }
 
 function displayRepositories(){
-  
+  $('#repositories').html = ""
 }
 
 
