@@ -12,7 +12,7 @@ function getRepositories(){
 function displayRepositories(){
   debugger;
   var repos = this.responseText
-  
+
   $('#repositories').html = repoList
 }
 
