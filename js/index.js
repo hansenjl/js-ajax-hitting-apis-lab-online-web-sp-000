@@ -1,6 +1,6 @@
 function getRepositories(){
   let xml = new XMLHttpRequest();
-  xml.open("GET", "filename", true);
+  xml.open("GET", `users/${}/repos`, true);
   xml.send();
   debugger
 }
