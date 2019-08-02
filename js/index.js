@@ -1,8 +1,9 @@
 function getRepositories(){
   let xml = new XMLHttpRequest();
+    debugger;
   xml.open("GET", `users/${"word"}/repos`, true);
   xml.send();
-  debugger;
+
 }
 
 function displayRepositories(){
