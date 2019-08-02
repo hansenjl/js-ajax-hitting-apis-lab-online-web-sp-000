@@ -3,7 +3,7 @@ function getRepositories(){
   let username = $('input#username').value
     debugger;
   xml.addEventListener('load', displayRepositories);
-  xml.open("GET", `https://api.github.com/users/${username}/repos`, true);
+  xml.open("GET", `https://api.github.com/users/${username}/repos`);
   xml.send();
 
 }
